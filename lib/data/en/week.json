@@ -1,0 +1,116 @@
+{
+  "type": "week",
+  "sayings": [
+    {
+      "content": "Monday is a fresh start, full of endless possibilities.",
+      "type": "week",
+      "weekday": 1
+    },
+    {
+      "content": "Embrace the new week with enthusiasm and determination.",
+      "type": "week",
+      "weekday": 1
+    },
+    {
+      "content": "Monday motivation: turn your can'ts into cans and your dreams into plans.",
+      "type": "week",
+      "weekday": 1
+    },
+    
+    {
+      "content": "Tuesday, keep the momentum going.",
+      "type": "week",
+      "weekday": 2
+    },
+    {
+      "content": "Turn an ordinary Tuesday into an extraordinary day.",
+      "type": "week",
+      "weekday": 2
+    },
+    {
+      "content": "Tuesday tip: small steps every day lead to big results.",
+      "type": "week",
+      "weekday": 2
+    },
+    
+    {
+      "content": "Wednesday, halfway there, keep pushing forward!",
+      "type": "week",
+      "weekday": 3
+    },
+    {
+      "content": "Wednesday is the turning point, let's move ahead with greater passion.",
+      "type": "week",
+      "weekday": 3
+    },
+    {
+      "content": "Hump day wisdom: the middle is just the beginning of the end.",
+      "type": "week",
+      "weekday": 3
+    },
+    
+    {
+      "content": "Thursday, persistence is victory.",
+      "type": "week",
+      "weekday": 4
+    },
+    {
+      "content": "One step closer to the weekend, stay focused on your goals.",
+      "type": "week",
+      "weekday": 4
+    },
+    {
+      "content": "Thursday thought: almost there, don't give up now!",
+      "type": "week",
+      "weekday": 4
+    },
+    
+    {
+      "content": "Friday, success is within sight.",
+      "type": "week",
+      "weekday": 5
+    },
+    {
+      "content": "End the week on a high note, give it your best today.",
+      "type": "week",
+      "weekday": 5
+    },
+    {
+      "content": "Friday feeling: the reward for working hard is more work worth doing.",
+      "type": "week",
+      "weekday": 5
+    },
+    
+    {
+      "content": "Saturday is the perfect time to recharge and enjoy life's beauty.",
+      "type": "week",
+      "weekday": 6
+    },
+    {
+      "content": "Cherish these precious weekend moments of relaxation.",
+      "type": "week",
+      "weekday": 6
+    },
+    {
+      "content": "Saturday serenity: take time to do what makes your soul happy.",
+      "type": "week",
+      "weekday": 6
+    },
+    
+    {
+      "content": "Sunday is the ideal time to reflect and plan for the week ahead.",
+      "type": "week",
+      "weekday": 7
+    },
+    {
+      "content": "Make Sunday a time for self-improvement, preparing for a great new week.",
+      "type": "week",
+      "weekday": 7
+    },
+    {
+      "content": "Sunday serenity: a day to refuel your soul and be grateful.",
+      "type": "week",
+      "weekday": 7
+    }
+  ]
+}

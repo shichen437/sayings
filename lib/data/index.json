@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "languages": ["zh", "en"],
+  "types": [
+    "week",
+    "life",
+    "work",
+    "music"
+  ],
+  "files": {
+    "zh": {
+      "week": "zh/week.json",
+      "life": "zh/life.json",
+      "work": "zh/work.json",
+      "music": "zh/music.json"
+    },
+    "en": {
+      "week": "en/week.json",
+      "life": "en/life.json",
+      "work": "en/work.json",
+      "music": "en/music.json"
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "type": "week",
+  "sayings": [
+    {
+      "content": "星期一是新的开始，充满无限可能。",
+      "type": "week",
+      "weekday": 1
+    },
+    {
+      "content": "新的一周，新的希望，让我们以饱满的热情迎接挑战。",
+      "type": "week", 
+      "weekday": 1
+    },
+    {
+      "content": "周一就像一张白纸，等待你用精彩填满。",
+      "type": "week",
+      "weekday": 1
+    },
+    
+    {
+      "content": "星期二，保持前进的动力。",
+      "type": "week",
+      "weekday": 2
+    },
+    {
+      "content": "把每一个平凡的周二都变成不平凡的一天。",
+      "type": "week",
+      "weekday": 2
+    },
+    {
+      "content": "周二是积累的日子，每一步都离目标更近。",
+      "type": "week",
+      "weekday": 2
+    },
+    
+    {
+      "content": "星期三，已经走过了半程，继续加油！",
+      "type": "week",
+      "weekday": 3
+    },
+    {
+      "content": "周三是一周的转折点，让我们以更大的热情继续前行。",
+      "type": "week",
+      "weekday": 3
+    },
+    {
+      "content": "周三如同山腰，既能看到来路，也能望见前程。",
+      "type": "week",
+      "weekday": 3
+    },
+    
+    {
+      "content": "星期四，坚持就是胜利。",
+      "type": "week",
+      "weekday": 4
+    },
+    {
+      "content": "距离周末只差一步，让我们更加专注地完成目标。",
+      "type": "week",
+      "weekday": 4
+    },
+    {
+      "content": "周四的坚持，是周五成功的基石。",
+      "type": "week",
+      "weekday": 4
+    },
+    
+    {
+      "content": "星期五，成功就在眼前。",
+      "type": "week",
+      "weekday": 5
+    },
+    {
+      "content": "周五充满希望，让我们以最好的状态结束这一周。",
+      "type": "week",
+      "weekday": 5
+    },
+    {
+      "content": "周五的喜悦，是对一周努力的最好回报。",
+      "type": "week",
+      "weekday": 5
+    },
+    
+    {
+      "content": "周六是放松和充电的时刻，享受生活的美好。",
+      "type": "week",
+      "weekday": 6
+    },
+    {
+      "content": "周末时光宝贵，让我们好好享受这份悠闲。",
+      "type": "week",
+      "weekday": 6
+    },
+    {
+      "content": "周六的阳光，是对一周辛劳的最好慰藉。",
+      "type": "week",
+      "weekday": 6
+    },
+    
+    {
+      "content": "周日是思考和规划的好时机，为下周做好准备。",
+      "type": "week",
+      "weekday": 7
+    },
+    {
+      "content": "让周日成为充实自己的时刻，以更好的状态迎接新的一周。",
+      "type": "week",
+      "weekday": 7
+    },
+    {
+      "content": "周日的宁静，是下周活力的源泉。",
+      "type": "week",
+      "weekday": 7
+    }
+  ]
+}
