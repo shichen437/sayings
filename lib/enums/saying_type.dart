@@ -1,6 +1,1 @@
-enum SayingType {
-  week,
-  life,
-  work,
-  music,
-}
+enum SayingType { week, life, work, music }

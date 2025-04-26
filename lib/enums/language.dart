@@ -1,4 +1,1 @@
-enum Language {
-  zh,
-  en,
-}
+enum Language { zh, en }

@@ -19,7 +19,7 @@
 
 ```yaml
 dependencies:
-  sayings: ^0.0.1
+  sayings: ^0.0.5
 ```
 
 然后运行：

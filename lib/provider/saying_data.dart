@@ -4,9 +4,9 @@ import 'dart:math';
 import '../enums/saying_type.dart';
 import '../enums/language.dart';
 import '../models/saying_model.dart';
+import 'package:flutter/services.dart' show rootBundle;
 
 class SayingsData {
-  static final String _dataPath = '${Directory.current.path}/lib/data';
   static final Map<SayingType, List<Saying>> _cache = {};
 
   static Future<List<Saying>> getSayingsByType(
@@ -46,12 +46,16 @@ class SayingsData {
   ) async {
     if (_cache.containsKey(type)) return _cache[type]!;
 
-    final indexFile = File('$_dataPath/index.json');
-    final indexData = jsonDecode(await indexFile.readAsString());
+    final indexContent = await rootBundle.loadString(
+      'packages/sayings/lib/data/index.json',
+    );
+    final indexData = jsonDecode(indexContent);
     final fileName = indexData['files'][language.name][type.name];
 
-    final file = File('$_dataPath/$fileName');
-    final data = jsonDecode(await file.readAsString());
+    final content = await rootBundle.loadString(
+      'packages/sayings/lib/data/$fileName',
+    );
+    final data = jsonDecode(content);
     final sayings =
         (data['sayings'] as List)
             .map((s) => Saying.fromJson(s, language))

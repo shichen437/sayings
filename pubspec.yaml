@@ -1,6 +1,6 @@
 name: sayings
 description: A Flutter library providing categorized quotes/sayings with multilingual support.
-version: 0.0.1
+version: 0.0.5
 homepage: https://github.com/shichen437/sayings
 repository: https://github.com/shichen437/sayings.git
 
@@ -11,6 +11,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
+flutter:
+  assets:
+    - lib/data/index.json
+    - lib/data/en/
+    - lib/data/zh/
 
 dev_dependencies:
   flutter_test:
