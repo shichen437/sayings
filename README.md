@@ -19,7 +19,7 @@ Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  sayings: ^0.0.5
+  sayings: ^0.0.6
 ```
 
 Then run:

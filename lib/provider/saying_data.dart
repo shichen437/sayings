@@ -7,7 +7,12 @@ import '../models/saying_model.dart';
 import 'package:flutter/services.dart' show rootBundle;
 
 class SayingsData {
-  static final Map<SayingType, List<Saying>> _cache = {};
+  // 修改缓存键的结构，同时包含类型和语言
+  static final Map<String, List<Saying>> _cache = {};
+
+  static String _getCacheKey(SayingType type, Language language) {
+    return '${type.name}_${language.name}';
+  }
 
   static Future<List<Saying>> getSayingsByType(
     SayingType type,
@@ -44,7 +49,8 @@ class SayingsData {
     SayingType type,
     Language language,
   ) async {
-    if (_cache.containsKey(type)) return _cache[type]!;
+    final cacheKey = _getCacheKey(type, language);
+    if (_cache.containsKey(cacheKey)) return _cache[cacheKey]!;
 
     final indexContent = await rootBundle.loadString(
       'packages/sayings/lib/data/index.json',
@@ -61,7 +67,7 @@ class SayingsData {
             .map((s) => Saying.fromJson(s, language))
             .toList();
 
-    _cache[type] = sayings;
+    _cache[cacheKey] = sayings;
     return sayings;
   }
 
